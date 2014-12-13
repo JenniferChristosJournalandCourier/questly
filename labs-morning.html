@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Questly</title>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+  <script>
+    /* JavaScript can use C-style comment blocks.
+       They can span multiple lines. This isn't the best to use because /* is more common now.
+    */
+
+    // JavaScript can also use C++ style sing-line comments.
+    // Use this style because it's less error-prone.
+
+    // Lab time
+    // Change the alert box to greet the person by name.
+    var name = prompt('What is your name?'); // Double-quotes this time
+    var secretName = prompt('What is your secret agent name?');
+    var thingToSearchFor = new RegExp(name, 'g');
+    var story = prompt('Tell me a story about yourself.');
+    var newStory = story.replace(thingToSearchFor, secretName);
+    alert(newStory);
+
+
+  </script>
+
+</body>
+</html>
