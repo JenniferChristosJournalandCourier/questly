@@ -26,7 +26,7 @@ function questly() {
     var storyDiv = document.getElementById('story');
     var friendStory = '';
     if (userData.friend) {
-      friendStory = ' Hey, I see you brought your friend!';
+      friendStory = ' Don\'t forget. Hey, I see you brought your friend!';
     }
     var nameToUse = userData.name;
     if (userData.useAgent) {
